@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+.poll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 22px;
+    margin-top: 50px;
+    gap: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: #ecebeb;
+    border-radius: 15px;
+}
+
+
+.poll p {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.pol_1 label {
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btn {
+    margin-top: 60px;
+    padding: 12px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 18px;
+}
+
+.btn:hover {
+    transition: 0.5s ease-in;
+    background-color: rosybrown;
+}
+
+
+
